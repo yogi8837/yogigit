@@ -1,2 +1,7 @@
 we are going to use git stash today
 
+so iam going write a Dockerfile
+FROM ubuntu
+CMD echo "vmr"
+COPY ./index.html /usr/share/nginx/html
+
