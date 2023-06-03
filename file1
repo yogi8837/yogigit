@@ -4,11 +4,3 @@ so iam going write a Dockerfile
 FROM ubuntu
 CMD echo "vmr"
 COPY ./index.html /usr/share/nginx/html
-
-jenkins file
-pipeline {
- agent any
- stages{
- stage('clone'){
- steps{
- }
